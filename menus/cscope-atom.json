@@ -1,0 +1,146 @@
+{
+	"context-menu": {
+		"atom-text-editor": [
+			{
+				"label": "Query Symbol",
+				"command": "cscope-atom:symbol"
+			},
+			{
+				"label": "Query Definition",
+				"command": "cscope-atom:definition"
+			},
+			{
+				"label": "Query Callee",
+				"command": "cscope-atom:callee"
+			},
+			{
+				"label": "Query Caller",
+				"command": "cscope-atom:caller"
+			},
+			{
+				"label": "Query Text",
+				"command": "cscope-atom:text"
+			},
+			{
+				"label": "Query Egrep",
+				"command": "cscope-atom:egrep"
+			},
+			{
+				"label": "Query File",
+				"command": "cscope-atom:file"
+			},
+			{
+				"label": "Query Include",
+				"command": "cscope-atom:include"
+			},
+			{
+				"label": "Query Set",
+				"command": "cscope-atom:set"
+			},
+			{
+				"label": "Show Results",
+				"command": "cscope-atom:showResults"
+			},
+			{
+				"label": "Pop",
+				"command": "cscope-atom:pop"
+			}
+		]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "cscope-atom",
+					"submenu": [
+						{
+							"label": "Build",
+							"command": "cscope-atom:build"
+						},
+						{
+							"label": "Query Symbol",
+							"command": "cscope-atom:symbol"
+						},
+						{
+							"label": "Query Symbol Input",
+							"command": "cscope-atom:symbol-input"
+						},
+						{
+							"label": "Query Definition",
+							"command": "cscope-atom:definition"
+						},
+						{
+							"label": "Query Definition Input",
+							"command": "cscope-atom:definition-input"
+						},
+						{
+							"label": "Query Callee",
+							"command": "cscope-atom:callee"
+						},
+						{
+							"label": "Query Callee Input",
+							"command": "cscope-atom:callee-input"
+						},
+						{
+							"label": "Query Caller",
+							"command": "cscope-atom:caller"
+						},
+						{
+							"label": "Query Caller Input",
+							"command": "cscope-atom:caller-input"
+						},
+						{
+							"label": "Query Text",
+							"command": "cscope-atom:text"
+						},
+						{
+							"label": "Query Text Input",
+							"command": "cscope-atom:text-input"
+						},
+						{
+							"label": "Query Egrep",
+							"command": "cscope-atom:egrep"
+						},
+						{
+							"label": "Query Egrep Input",
+							"command": "cscope-atom:egrep-input"
+						},
+						{
+							"label": "Query File",
+							"command": "cscope-atom:file"
+						},
+						{
+							"label": "Query File Input",
+							"command": "cscope-atom:file-input"
+						},
+						{
+							"label": "Query Include",
+							"command": "cscope-atom:include"
+						},
+						{
+							"label": "Query Include Input",
+							"command": "cscope-atom:include-input"
+						},
+						{
+							"label": "Query Set",
+							"command": "cscope-atom:set"
+						},
+						{
+							"label": "Query Set Input",
+							"command": "cscope-atom:set-input"
+						},
+						{
+							"label": "Show Results",
+							"command": "cscope-atom:show-results"
+						},
+						{
+							"label": "Pop",
+							"command": "cscope-atom:pop"
+						}
+					]
+				}
+			]
+		}
+	]
+}

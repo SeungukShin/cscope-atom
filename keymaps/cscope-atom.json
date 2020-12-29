@@ -1,0 +1,25 @@
+{
+	"atom-workspace": {
+		"ctrl-. b": "cscope-atom:build",
+		"ctrl-. s": "cscope-atom:symbol",
+		"ctrl-. S": "cscope-atom:symbol-input",
+		"ctrl-. g": "cscope-atom:definition",
+		"ctrl-. G": "cscope-atom:definition-input",
+		"ctrl-. a": "cscope-atom:callee",
+		"ctrl-. A": "cscope-atom:callee-input",
+		"ctrl-. c": "cscope-atom:caller",
+		"ctrl-. C": "cscope-atom:caller-input",
+		"ctrl-. t": "cscope-atom:text",
+		"ctrl-. T": "cscope-atom:text-input",
+		"ctrl-. e": "cscope-atom:egrep",
+		"ctrl-. E": "cscope-atom:egrep-input",
+		"ctrl-. f": "cscope-atom:file",
+		"ctrl-. F": "cscope-atom:file-input",
+		"ctrl-. i": "cscope-atom:include",
+		"ctrl-. I": "cscope-atom:include-input",
+		"ctrl-. n": "cscope-atom:set",
+		"ctrl-. N": "cscope-atom:set-input",
+		"ctrl-. .": "cscope-atom:show-results",
+		"ctrl-. o": "cscope-atom:pop"
+	}
+}

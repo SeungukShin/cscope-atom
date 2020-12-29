@@ -1,0 +1,81 @@
+{
+	"name": "cscope-atom",
+	"main": "./lib/cscope-atom",
+	"version": "0.1.0",
+	"description": "Cscope Package for Atom",
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		},
+		"file-icons.element-icons": {
+			"versions": {
+				"1.0.0": "consumeElementIcons"
+			}
+		}
+	},
+	"configSchema": {
+		"cscope": {
+			"type": "string",
+			"default": "cscope",
+			"description": "Command for cscope."
+		},
+		"buildArgs": {
+			"type": "string",
+			"default": "-RbU",
+			"description": "Arguments to build a cscope database."
+		},
+		"queryArgs": {
+			"type": "string",
+			"default": "-RdL",
+			"description": "Arguments to query a symbol."
+		},
+		"database": {
+			"type": "string",
+			"default": "cscope.out",
+			"description": "A database filename for cscope."
+		},
+		"auto": {
+			"type": "boolean",
+			"default": true,
+			"description": "Generate a cscope database when open an workspace or store a file on it."
+		},
+		"extensions": {
+			"type": "string",
+			"default": "c,cpp,cc,cxx,c++,hpp,hh,hxx,h",
+			"description": "Extensions to monitor their changes to update database."
+		},
+		"preview": {
+			"type": "boolean",
+			"default": true,
+			"description": "Preview the result of the query."
+		},
+		"logLevel": {
+			"type": "string",
+			"default": "E",
+			"enum": [
+				{ "value": "E", "description": "Error" },
+				{ "value": "W", "description": "Warning" },
+				{ "value": "I", "description": "Information" }
+			]
+		},
+		"output": {
+			"type": "string",
+			"default": "QuickPick",
+			"enum": ["QuickPick", "TreeView"]
+		}
+	},
+	"keywords": [],
+	"activationHooks": [
+		"language-c:grammar-used"
+	],
+	"repository": "https://github.com/SeungukShin/cscope-atom",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"atom-select-list": "^0.7.2"
+	}
+}
