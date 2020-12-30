@@ -39,7 +39,7 @@
 			},
 			{
 				"label": "Show Results",
-				"command": "cscope-atom:showResults"
+				"command": "cscope-atom:show-results"
 			},
 			{
 				"label": "Pop",
