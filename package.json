@@ -59,11 +59,6 @@
 				{ "value": "W", "description": "Warning" },
 				{ "value": "I", "description": "Information" }
 			]
-		},
-		"output": {
-			"type": "string",
-			"default": "QuickPick",
-			"enum": ["QuickPick", "TreeView"]
 		}
 	},
 	"keywords": [],
